@@ -1,0 +1,35 @@
+.title {
+	text-align: center;
+	color: #54a6b1;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+	
+
+.bouton {
+	color: #FFF;
+	background-color: #000;
+}
+
+.bouton:hover {
+background-color: #FFF;
+color: #000;
+border-color: #000;
+}
+
+input:hover {
+	border-color: #54a6b1;
+	
+}
+
+label {
+	text-transform: uppercase;
+}
+
+input:focus {
+	outline: 0;
+	border: none;
+}

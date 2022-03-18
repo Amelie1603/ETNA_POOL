@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css"/>
+	<title>My Portfolio</title>
+</head>
+
+<body>
+<header>
+	<h1 class="logo">Amélie</h1>
+	<nav>
+		<ul>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="index.html">Projects</a></li>
+		</ul>
+		
+	</nav>
+</header>
+
+<main>
+
+<form>
+	<fieldset>
+		<section class="Personal Informations">
+			<legend>Personal Informations</legend>
+				<p>
+					<label>civility</label> : Male <input type="radio" name="Civility"/> Female<input type="radio" name="Civility"/><br>
+					<label>firstname</label> : <input type="text" name="Firstname"/><br>
+					<label>lastname</label> : <input type="text" name="Lastname"/><br>
+					<label>email</label> : <input type="email" name="Email"/><br>
+					<label>phone number</label> : <input type="number" name="Phone number"/>
+				</p>
+        </section>
+	</fieldset>
+    
+    <fieldset>
+    	<section class="Message">
+    		<legend>Message</legend>
+    			<p><label>subject</label>
+					<select name="Subject" size="3">
+					<option>work proposal</option>
+					<option>just saying hell</option>
+					<option>rendez-vous</option>
+					</select><br>
+
+					<label>current Date</label> : <input type="date" name="Current Date"/><br>
+					<textarea cols="50" rows="2">Complete this field</textarea>
+				</p>
+    		
+    	</section>
+     </fieldset>
+     <input class="bouton" type="submit" value="Envoyer le formulaire">
+	
+</form>
+	
+
+		
+</main>
+
+</body>
+
+</html>

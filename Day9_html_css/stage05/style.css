@@ -1,0 +1,103 @@
+.title {
+	text-align: center;
+	color: #54a6b1;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+	
+
+.bouton {
+	color: #FFF;
+	background-color: #000;
+	padding: 13px;
+	
+}
+
+.bouton:hover {
+background-color: #FFF;
+color: #000;
+border-color: #000;
+}
+
+input:focus {
+
+	border-color: #54a6b1;
+	
+
+}
+
+textarea:hover {
+	border-color: #54a6b1;
+
+}
+
+input {
+	padding: 5px;
+	outline: 0;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-color: black;
+
+
+	
+
+	
+}
+
+label {
+	text-transform: uppercase;
+}
+
+
+
+legend {
+	border-top-style: none;
+	
+	
+
+}
+
+fieldset {
+	border: none;
+
+	
+}
+
+
+textarea {
+	outline: 0;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-color: black;
+	
+}
+
+hr {
+	max-width: 30%;
+	margin-right: 1030px;
+	height: 5px;
+	background-color: black;
+
+}
+
+.male {
+	margin-left: 8px;
+}
+
+.female {
+	margin-right: 40px;
+
+}
+
+main {
+	font-family: sans-serif;
+}

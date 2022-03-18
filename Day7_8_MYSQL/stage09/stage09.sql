@@ -1,0 +1,1 @@
+SELECT DISTINCT m.identifier AS Attaques FROM pokemon_moves pm INNER JOIN pokemon p ON pm.pokemon_id = p.id INNER JOIN moves m ON pm.move_id = m.id WHERE p.identifier = "Feraligatr" AND  m.identifier = "hydro-pump";

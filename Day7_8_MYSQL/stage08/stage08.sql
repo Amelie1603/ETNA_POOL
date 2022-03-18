@@ -1,0 +1,1 @@
+SELECT stats.identifier AS nom_stat,base_stat AS nb FROM stats INNER JOIN pokemon_stats ON (stats.id = pokemon_stats.stat_id) JOIN pokemon ON (pokemon.id = pokemon_stats.pokemon_id) WHERE pokemon.id LIKE "150";
